@@ -1,1 +1,6 @@
-# simple_url_shortener
+# Setup
+
+```
+  rake db:migrate
+  rails s
+```

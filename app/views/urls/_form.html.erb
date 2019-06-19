@@ -1,0 +1,7 @@
+<%= form_tag("/urls", method: "post") do %>
+  <div class="form-group">
+    <%= label_tag(:url, "Shorten url:") %>
+    <%= text_field_tag(:url) %>
+    <%= submit_tag("Submit", class: "btn btn-default btn-primary") %>
+  </div>
+<% end %>
